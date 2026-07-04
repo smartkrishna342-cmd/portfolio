@@ -515,3 +515,34 @@ font-weight:700;
     cursor:pointer;
     font-weight:bold;
 }
+/* Project Buttons */
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin:20px;
+}
+
+.buttons a{
+    text-decoration:none;
+}
+
+.buttons button{
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:#00d4ff;
+    color:#000;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:all 0.3s ease;
+}
+
+.buttons button:hover{
+    background:#00a8cc;
+    color:#fff;
+    transform:translateY(-5px);
+    box-shadow:0 0 20px rgba(0,212,255,0.6);
+}
