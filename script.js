@@ -181,3 +181,20 @@ document.querySelectorAll('nav a').forEach(anchor => {
 });
 
 console.log("Portfolio Loaded Successfully 🚀");
+// Project Button Click Animation
+
+document.querySelectorAll(".buttons button").forEach(button => {
+
+    button.addEventListener("click", function () {
+
+        this.style.transform = "scale(0.95)";
+
+        setTimeout(() => {
+
+            this.style.transform = "scale(1)";
+
+        }, 150);
+
+    });
+
+});
